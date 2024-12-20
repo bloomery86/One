@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Despre Noi | Bloomery</title>
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/responsive.css">
+        <link rel="stylesheet" href="./css/despre-noi.css">
+        <link rel="stylesheet" href="./css/product-detail.css">
+        <link rel="stylesheet" href="./css/cart.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- GSAP and Lenis -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+   
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bloomery - Florărie Online</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+        <script src="./js/components.js"></script>
+       
+        
+        
+        <script src="./js/components.js"></script>
+    </head>
+    <body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="main-header">
+            <div class="container">
+                <div class="logo">
+                    <a href="./index.html">
+                        <i class="fas fa-flower"></i>
+                        <span class="logo-text">BLOOM<span class="accent">ERY</span></span>
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="./index.html"><i class="fas fa-seedling"></i> Acasa</a></li>
+                        <li><a href="./index.html#bestsellers"><i class="fas fa-crown"></i> Bestsellers</a></li>
+                        <li><a href="./noutati.html"><i class="fas fa-leaf"></i> Colecții</a></li>
+                        <li><a href="./despre-noi.html"><i class="fas fa-heart"></i> Despre Noi</a></li>
+                    </ul>
+                    <div class="mobile-nav-actions">
+                        <a href="#search" class="action-icon search-icon" title="Căutare">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <a href="#account" class="action-icon account-icon" title="Contul Meu">
+                            <i class="fas fa-user"></i>
+                        </a>
+                        <div class="cart-wrapper">
+                            <a href="#cart" class="action-icon cart-icon" title="Coș">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span class="cart-count">0</span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+                <button class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="header-actions">
+                    <a href="#search" class="action-icon search-icon" title="Căutare">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a href="#account" class="action-icon account-icon" title="Contul Meu">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <div class="cart-wrapper">
+                        <a href="#cart" class="action-icon cart-icon" title="Coș">
+                            <i class="fas fa-shopping-basket"></i>
+                            <span class="cart-count">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+        <!-- Hero Section -->
+        <section class="despre-hero">
+            <div class="despre-hero-overlay"></div>
+            <img src="./product-image/despre.jpg" alt="Despre Noi Hero Image" class="despre-hero-image">
+            <div class="despre-container">
+                <div class="hero-content">
+                    <h1 class="hero-brand fade-in">Despre Noi</h1>
+                    <p class="hero-subtitle fade-in">Din pasiune pentru frumos</p>
+                    
+                    <div class="stats-container fade-in">
+                        <div class="stat-card">
+                            <span class="stat-value">10+</span>
+                            <span class="stat-label">Experiență</span>
+                        </div>
+                        
+                        <div class="stat-divider"></div>
+                        
+                        <div class="stat-card">
+                            <span class="stat-value">5000+</span>
+                            <span class="stat-label">Clienți</span>
+                        </div>
+                        
+                        <div class="stat-divider"></div>
+                        
+                        <div class="stat-card">
+                            <span class="stat-value">100%</span>
+                            <span class="stat-label">Satisfacție</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="despre-section">
+            <div class="despre-container">
+                <div class="despre-grid">
+                    <div class="despre-content fade-in">
+                        <div class="content-wrapper">
+                            <span class="section-subtitle">DESPRE NOI</span>
+                            <h2>Misiunea <span class="highlight">Noastră</span></h2>
+                            <div class="mission-text">
+                                <p>La Bloomery, excelența în arta florală este mai mult decât o promisiune - este standardul nostru zilnic. Cu o experiență de peste 10 ani, ne-am dedicat misiunii de a aduce frumusețea naturii în viețile oamenilor prin creații florale unice.</p>
+                                <p>Colaborăm direct cu cultivatori premium din Ecuador și Olanda, asigurându-ne că fiecare floare din aranjamentele noastre reprezintă perfecțiunea naturii în cea mai pură formă.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="despre-image fade-in">
+                        <div class="image-wrapper">
+                            <div class="image-overlay"></div>
+                            <img src="./product-image/101 VIP ROSU/4.jpg" alt="Echipa Bloomery la lucru">
+                        </div>
+                        <div class="experience-badge">
+                            <span class="years">10+</span>
+                            <span class="text">Ani de<br>Experiență</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="design-elements">
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+            </div>
+        </section>
+
+ 
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-top">
+                    <div class="footer-section contact-section">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <span>Telefon</span>
+                                    <a href="tel:+40722123456">+40 722 123 456</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span>Email</span>
+                                    <a href="mailto:contact@bloomery.ro">contact@bloomery.ro</a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <span>Adresă</span>
+                                    <a href="https://goo.gl/maps" target="_blank">Strada Florilor 123, București</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-section links-section">
+                        <h3>Informații Utile</h3>
+                        <ul>
+                            <li><a href="#">Despre Noi</a></li>
+                            <li><a href="#">Termeni și Condiții</a></li>
+                            <li><a href="#">Politica de Confidențialitate</a></li>
+                            <li><a href="#">Politica de Retur</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section schedule-section">
+                        <h3>Program</h3>
+                        <ul class="schedule-list">
+                            <li>
+                                <span class="day">Luni - Vineri</span>
+                                <span class="hours">09:00 - 20:00</span>
+                            </li>
+                            <li>
+                                <span class="day">Sâmbătă</span>
+                                <span class="hours">10:00 - 18:00</span>
+                            </li>
+                            <li>
+                                <span class="day">Duminică</span>
+                                <span class="hours">10:00 - 16:00</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-section social-section">
+                        <h3>Urmărește-ne</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="Pinterest">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="TikTok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                        <div class="newsletter">
+                            <h4>Newsletter</h4>
+                            <p>Abonează-te pentru noutăți și oferte speciale</p>
+                            <form class="newsletter-form">
+                                <input type="email" placeholder="Adresa ta de email" required>
+                                <button type="submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 Bloomery. Toate drepturile rezervate.</p>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-apple-pay"></i>
+                        <i class="fab fa-google-pay"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Cart Modal -->
+        <div id="cartModal" class="cart-modal">
+            <div class="cart-modal-content">
+                <div class="cart-modal-header">
+                    <h2>Coșul meu</h2>
+                    <button class="close-cart">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="cart-items-container">
+                    <!-- Cart items will be dynamically added here -->
+                </div>
+                <div class="cart-summary">
+                    <div class="cart-total">
+                        <span class="total-label">Total</span>
+                        <span class="total-amount">0.00 RON</span>
+                    </div>
+                    <button class="checkout-button">
+                        Finalizează Comanda
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="./js/main.js"></script>
+        <script src="./js/cart.js"></script>
+    </body>
+</html>
